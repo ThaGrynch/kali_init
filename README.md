@@ -1,2 +1,6 @@
 # kali_init
- Kali Linux with SEToolbox / Metasploit + more
+ This is my attempt at a PenTest environment using Kali Linux
+
+Python3.7
+Python3.7-dev
+Python3-distutils
