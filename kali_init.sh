@@ -52,6 +52,8 @@ sudo apt-get update ;
 sudo apt-get upgrade -y ;
 
 clear ;
-source .profile
+exec bash
 
+echo ''
+echo '$(tput setaf 2)Restart may be required for each alias to function'
 ## Complete
