@@ -53,7 +53,4 @@ sudo apt-get upgrade -y ;
 
 clear ;
 exec bash
-
-echo ''
-echo '$(tput setaf 2)Restart may be required for each alias to function$(tput sgr0)'
 ## Complete
