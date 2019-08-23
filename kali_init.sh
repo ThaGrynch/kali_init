@@ -31,7 +31,7 @@ sudo curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/con
 sudo chmod 755 /home/$username/msfinstall ;
 sudo ./msfinstall ;
 
-sudo echo 'neofetch ;' >> /home/$username/.profile ;
+sudo echo 'neofetch ;' >> /home/$username/.bashrc ;
 
 touch /home/$username/.functions ;
 echo 'test -e ~/.functions && . ~/.functions ;' >> /home/$username/.bashrc ;
