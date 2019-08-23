@@ -55,5 +55,5 @@ clear ;
 exec bash
 
 echo ''
-echo '$(tput setaf 2)Restart may be required for each alias to function'
+echo '$(tput setaf 2)Restart may be required for each alias to function$(tput sgr0)'
 ## Complete
