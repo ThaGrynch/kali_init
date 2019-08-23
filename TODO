@@ -1,3 +1,4 @@
 Auto detect user
 Discover additional packages (Cyber-Sec)
 Secure metasploit behind un-priveledged user
+Exit script gracefully with the ability to use all .function alias'
