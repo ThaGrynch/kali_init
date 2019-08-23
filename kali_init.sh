@@ -31,10 +31,10 @@ sudo curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/con
 sudo chmod 755 /home/$username/msfinstall ;
 sudo ./msfinstall ;
 
-sudo echo 'neofetch ;' >> /home/$username/.bashrc ;
+sudo echo 'neofetch ;' >> /home/$username/.profile ;
 
 touch /home/$username/.functions ;
-echo 'test -e ~/.functions && . ~/.functions ;' >> /home/$username/.profile ;
+echo 'test -e ~/.functions && . ~/.functions ;' >> /home/$username/.bashrc ;
 
 
 echo "alias pbcopy='xclip -selection clipboard'" >> /home/$username/.functions ;
@@ -52,5 +52,6 @@ sudo apt-get update ;
 sudo apt-get upgrade -y ;
 
 clear ;
-sudo /bin/reset
+source .profile
+
 ## Complete
