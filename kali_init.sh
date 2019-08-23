@@ -52,15 +52,7 @@ sudo apt-get update ;
 sudo apt-get upgrade -y ;
 
 clear ;
-neofetch ;
-
-echo "" ;
-echo "$(tput setaf 1)Warning: This is the only warning you will get to initialize the Metasploit Framework database component and copy your keys." ;
-echo "$(tput setaf 1)To do so, please immediately use the $(tput setaf 2)msfdb init$(tput setaf 1) command BEFORE using $(tput setaf 2)msf$(tput setaf 1)." ;
-echo "$(tput setaf 1)Thank you!" ;
-echo "" ;
-echo "" ;
-
-source .functions
-alias setk='cd ~/set/ && sudo python3 setoolkit'
+exit
+exit
+exit
 ## Complete
