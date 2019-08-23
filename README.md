@@ -1,6 +1,6 @@
 # kali_init
  This is my attempt at a PenTest environment using Kali Linux
 
-Python3.7
-Python3.7-dev
-Python3-distutils
+curl https://raw.githubusercontent.com/ThaGrynch/kali_init/master/kali_init.sh > init.sh
+sudo chmod 755 init.sh
+./init.sh
