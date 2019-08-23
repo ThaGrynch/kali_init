@@ -52,7 +52,5 @@ sudo apt-get update ;
 sudo apt-get upgrade -y ;
 
 clear ;
-exit
-exit
-exit
+sudo /bin/reset
 ## Complete
